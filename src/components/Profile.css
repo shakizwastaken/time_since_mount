@@ -1,0 +1,47 @@
+.profile-container{
+    text-align: center;
+
+    padding: 100px;
+
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.234);
+}
+
+.profile-container .pfp img {
+    border-radius: 100%;
+    width: 300px;
+}
+
+#toggle{
+
+    position: fixed;
+    right: 0px;
+
+    border: none;
+    background: none;
+    color: #506F86;
+    
+    font-size: large;
+
+    padding: 20px;
+
+    border-radius: 20px 0px 0px 20px;
+    background:none;
+    color: black;
+}
+
+#toggle:hover{
+    
+    transition: ease .2s;
+
+    background-color: black;
+    color:white;
+}
+
+.profile-container p {
+    color: #506F86;
+}
+
+#mountTimer {
+    position: fixed;
+    bottom: 10px;
+}
