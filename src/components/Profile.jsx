@@ -19,13 +19,10 @@ class Profile extends Component {
         setInterval(this.updateTimeSinceMount,100);
     }
 
-    componentWillUnmount() {
-        clearInterval(this.interval);
-    }
-
     updateTimeSinceMount=()=> {
 
         let endDate   = new Date();
+
         let seconds = (endDate.getTime() - this.mountDate.getTime()) / 1000;
 
         this.setState({
